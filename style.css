@@ -404,6 +404,120 @@ hr{
 
 
 
+.adv i{
+    color: red;
+    position: relative;
+    top: 50px;
+    right: 16%;
+    font-size:22px;
+}
+.adv1 pre{
+    color:gray;
+    position: relative;
+    right: 26%; 
+    bottom: 80px;  
+    font-size:12px;
+    
+}
+
+  
+.adv{
+    display: flex;
+    align-items: center;
+    padding:8%; 
+    position: relative;
+    right: 20px; 
+}
+.adv1 p{
+    color: white;
+
+}
+
+.adv1 h3{
+    color: white;
+}
+
+.adv{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    justify-content: space-around;
+}
+.container3{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.tech h4{
+color: white;
+right: 25px;
+position: relative;
+font-size:17px;
+}
+
+
+.tech h2{
+    color: white;
+}
+
+
+.tech li{
+    color:gray;
+    padding:10px;
+    position: relative;
+    right:50%;
+}
+
+
+
+.tech pre{
+    font-size: 16px;
+    color:gray;
+    position: relative;
+    right:68px;
+    bottom:90px;
+}
+
+button{
+    width:40%;
+}
+
+
+.info{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 10px;
+    padding: 5px;
+    }
+
+
+    #mail{
+        padding: 10px;
+        margin-bottom: 5px;
+        background-color: black;
+        bottom: 100%;
+        position: relative;
+
+    }
+    .container4{
+        display: flex;
+        justify-content: space-between;
+    }
+    .brand{
+        color: white;
+        top:15px;
+        position: relative;
+        display: flex;
+        gap: 80%;
+        right: 20%;
+    }
+    .rights{
+        color: rgb(210, 203, 203);
+    }
+    
+
 
 
 
