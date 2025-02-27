@@ -1,18 +1,40 @@
+.total{
+    background-color: rgb(186, 167, 167);
+    overflow: hidden;
+} 
 
 
-P{
-    font-size:18px;
+
+/* p{
+    font-size:18px; 
     position: relative;
-    left:2%;
+    left:30%;
+    bottom:50px;
     color:white;
-}
+    
+}  
 
-
-.header i{
+.header{
+   width: 100%;
    position: relative;
-   left:75%;
-   padding:20PX;  
+   top:30px;
+   right:10px;
 }
+
+
+.header p{
+    font-size:20px;
+    position: relative;
+    right:120px;
+}
+
+
+  .header i{
+   position: relative;
+   color: white;
+   top:10px; 
+   gap: 30%;
+}  
 
 img{
     width:480px;
@@ -20,19 +42,117 @@ img{
     display: flex;
     justify-content:space-evenly;
 
+ } */
+
+
+/* .header h2{   
+    transform: translate(50px,0);
+    
+} */
+
+.wholecontainer{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: black
+}
+.container1{
+    display: flex;
+    justify-content: space-between; 
+}
+.side1{
+    left: 50px;
+    position: relative;
+} 
+.side2{
+    right: -10%;
+    position: relative; 
+    display: flex;
+     justify-content: space-evenly; 
+     gap: 1%; 
+    top: 20px;
+     padding: 20px; 
+    color: white;  
+   }
+
+   .tooltip{
+    visibility: hidden;
+    width: 260px;
+    height: 190px;
+    background-color: 2px solid white;
+    border-radius: 2px;
+    /* transform: translate(-265px,15px); */
+    align-items: center;
+    background-color: black;
+} 
+.search-container:hover.tooltip{
+    visibility: visible;
+    opacity: 1;
+}
+.cart-container{
+    cursor: pointer;
+}
+.cart-container:hover .tooltip{
+    visibility: visible;
+    opacity: 1;
+}
+.profile-container{
+    cursor: pointer;
+}
+.profile-container:hover .tooltip{
+    visibility: visible;
+    opacity: 1;
+}
+ 
+.container2{
+    display: flex;
+    justify-content: space-around;
+}
+.text{
+    position: relative;
+    right:60px;
+}
+.subtext{
+    display: flex;
+    gap: 15px;
+}
+.text h5{
+    color: rgb(232, 232, 232);
+    font-size: 20px;
+
+}
+.image img{
+    /* position: relative; */
+    /* top:80px; */
+    height: 450px;
+    width: 450px;
+}
+.text h2{
+    color: white; 
+    font-size: 30px;
+    position: relative;
+    bottom: 25px;
 }
 
-.total{
-    overflow: hidden;
-    background-color:rgb(71, 67, 67);
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 pre{
     color: white;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size:40px;
     padding:70px; 
-}
+}  
 
 
 .left{
