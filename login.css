@@ -1,73 +1,66 @@
-.rightside{
-    /* height: 500px; */
-    width: 50%;
-    background-color:rgba(0, 0, 0, 0.253);
-}
 .wholecontainer{
-    background-color: rgb(26, 25, 25);
-    display: flex;
-    flex-direction: row;
-}
-.text p{
-    color: rgb(176, 172, 172);
-}
-.image img{
-    height: 100px;
-    width: 100px;
-    padding: 20px;
-}
-.p1{
-    height: 200px;
-    width: 100%;
-    display: flex;
-    margin-top: 70px;
-}
-.p2{
-    height: 200px;
-    width: 100%;
-    display: flex;
-}
-.subtext{
-    display: flex;
-    gap: 5%;
-}
-hr{
-    color: grey;
-}
-i{
-    color: white;
-    margin-top: 20px;
-}
-.delete i{
-    position: relative;
-    left: 100px;
-}
-.deletes i{
-    position: relative;
-    left: 130px;
-}
-.price{
-    display: flex;
-    color: white;
-     gap:130%; 
-    padding: 10%;
-}
-.price i{
-    top:5px;
-    position: relative;
-}
-.div pre{
-    bottom: 25px;
-    position: relative;
-}
-button{
-    background-color: red;
-    height: 50px;
-    width: 200px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
     place-items: center;
+    height: 500px;
+    width: 50%; 
+}
+h1{
+    color: white;
+    position: relative;
+    right: 167px;
+    font-size:23px;
+    top:10px;
+}
+
+p{
+    right: 100px;
+    position: relative;
+}
+input{
+    background-color: black;
+    color: white;
+    border:1px solid rgb(151, 151, 151);
+    align-items:center;
+}
+
+
+.text{
+    color: white;
     
 }
-.total{
+.linecontainer{
     display: flex;
-    gap: 150px;
+    align-items: center;
+    justify-content: center;
+}
+.line{
+    flex: 1;
+    height: 1px;
+    background-color: white;
+    color: white;
+}
+.text{
+    padding: 0 10px;
+    font-size: 18px;
+    color: rgb(220, 205, 205);
+}
+.container{
+    text-align: center;
+    margin: 15px;
+}
+input{
+    height: 50px;
+    width: 400px;
+}
+.signup{
+    height:40px;
+    width: 400px;
+    background-color: red;
+    color: white;
+}
+.class{
+    height: 50px;
+    width: 100px;
 }
