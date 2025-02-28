@@ -1,5 +1,5 @@
 .total{
-    background-color: rgb(186, 167, 167);
+    background-color:black;
     overflow: hidden;
 } 
 
@@ -52,8 +52,8 @@ img{
 
 .wholecontainer{
     overflow-x: hidden;
-    overflow-y: hidden;
-    background-color: black
+    background-color:black;
+    
 }
 .container1{
     display: flex;
