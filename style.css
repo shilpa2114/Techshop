@@ -59,11 +59,11 @@ img{
     display: flex;
     justify-content: space-between; 
 }
-.side1{
+.logo{
     left: 50px;
     position: relative;
 } 
-.side2{
+.icon{
     right: -10%;
     position: relative; 
     display: flex;
@@ -84,21 +84,21 @@ img{
     align-items: center;
     background-color: black;
 } 
-.search-container:hover.tooltip{
+.icon1:hover.tooltip{
     visibility: visible;
     opacity: 1;
 }
-.cart-container{
+.icon2{
     cursor: pointer;
 }
-.cart-container:hover .tooltip{
+.icon2:hover .tooltip{
     visibility: visible;
     opacity: 1;
 }
-.profile-container{
+.icon3{
     cursor: pointer;
 }
-.profile-container:hover .tooltip{
+.icon3:hover .tooltip{
     visibility: visible;
     opacity: 1;
 }
