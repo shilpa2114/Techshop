@@ -22,6 +22,44 @@
     background-color:black;
     
 }
+
+.profile h3{
+    transform:translate(10px);
+}
+
+.profile p{
+    transform:translate(10px);
+}
+
+.profile{
+    background-color:black;
+    border: white;
+    width:90%;
+    position: relative;
+    right:170px;
+    border: 1px solid gray;
+    top:20px;
+
+}
+
+.profile hr{
+    width:215px;
+    position: relative;
+    left:1px;
+    top:2px;
+}
+
+
+
+.profile button{
+   border:1px solid gray;
+   background-color:black; 
+   height:33px;
+   width:200px;
+   position: relative;
+   left:15px;
+}
+
 .container1{
     display: flex;
     justify-content: space-between;
@@ -107,6 +145,7 @@
     bottom:60px; 
     height: 380px;
     width: 380px;
+    right:50px;
 }
 .text h2{
     color: white; 
