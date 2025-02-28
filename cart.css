@@ -102,7 +102,23 @@ button{
     color:white;
     
 }
+.inc{
+    display: flex;
+    position: relative;
+    top: 180PX;
+    right: 180PX;
+}
 .s4{
     display: flex;
     gap: 150px;
+}
+.one{
+    background-color: grey;
+}
+.two{
+    background-color: black;
+}
+.inc button{
+    height: 40px;
+    width: 50px;
 }

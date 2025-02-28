@@ -30,7 +30,9 @@
 .profile p{
     transform:translate(10px);
 }
-
+.inc{
+    display: flex;
+}
 .profile{
     background-color:black;
     border: white;
