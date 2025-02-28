@@ -3,52 +3,19 @@
     overflow: hidden;
 } 
 
-
-
-/* p{
-    font-size:18px; 
-    position: relative;
-    left:30%;
-    bottom:50px;
-    color:white;
-    
-}  
-
-.header{
-   width: 100%;
-   position: relative;
-   top:30px;
-   right:10px;
+.text h5{
+  position: relative;
+  bottom:45px;
+  left:90px;
+  color: rgb(232, 232, 232);
+  font-size: 20px;
 }
 
-
-.header p{
-    font-size:20px;
+.text pre{
     position: relative;
-    right:120px;
+    bottom:120px;
+    left:20px;
 }
-
-
-  .header i{
-   position: relative;
-   color: white;
-   top:10px; 
-   gap: 30%;
-}  
-
-img{
-    width:480px;
-    height:420px;
-    display: flex;
-    justify-content:space-evenly;
-
- } */
-
-
-/* .header h2{   
-    transform: translate(50px,0);
-    
-} */
 
 .wholecontainer{
     overflow-x: hidden;
@@ -57,24 +24,26 @@ img{
 }
 .container1{
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
+    color: white;
 }
 .logo{
-    left: 50px;
+    left: 18px;
     position: relative;
+    top:16px;
 } 
 .icon{
-    right: -10%;
+    left:10%;
     position: relative; 
     display: flex;
-     justify-content: space-evenly; 
-     gap: 1%; 
+    gap: 5%;
+     
     top: 20px;
      padding: 20px; 
     color: white;  
    }
 
-   .tooltip{
+   .sp1{
     visibility: hidden;
     width: 260px;
     height: 190px;
@@ -84,21 +53,31 @@ img{
     align-items: center;
     background-color: black;
 } 
-.icon1:hover.tooltip{
+.icon1:hover.sp1{
     visibility: visible;
     opacity: 1;
 }
 .icon2{
     cursor: pointer;
 }
-.icon2:hover .tooltip{
+
+.icon1 i{
+    position: relative;
+    left:410px;
+}
+
+.icon2 i{
+    position: relative;
+    left:210px;
+}
+
+
+.icon2:hover .sp1{
     visibility: visible;
     opacity: 1;
 }
-.icon3{
-    cursor: pointer;
-}
-.icon3:hover .tooltip{
+    
+.icon3:hover .sp1{
     visibility: visible;
     opacity: 1;
 }
@@ -106,25 +85,28 @@ img{
 .container2{
     display: flex;
     justify-content: space-around;
+    position: relative;
+    bottom:75px;
 }
 .text{
     position: relative;
     right:60px;
 }
-.subtext{
+.sp3{
     display: flex;
     gap: 15px;
+    position: relative;
+    bottom:230px;
+    left:95px;
 }
-.text h5{
-    color: rgb(232, 232, 232);
-    font-size: 20px;
 
-}
-.image img{
-    /* position: relative; */
-    /* top:80px; */
-    height: 450px;
-    width: 450px;
+
+
+.im img{
+    position: relative; 
+    bottom:60px; 
+    height: 380px;
+    width: 380px;
 }
 .text h2{
     color: white; 
@@ -133,19 +115,9 @@ img{
     bottom: 25px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+a:visited{
+   color: white;
+}
 
 pre{
     color: white;
@@ -212,8 +184,15 @@ pre{
  align-items: center;
  display: flex; 
  font-size:19px;
+ position: relative;
+ bottom:90px;
+
 }
+
+
 /* product1 */
+
+
 
 .products img{
     width:130px;
