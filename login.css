@@ -1,4 +1,4 @@
-.wholecontainer{
+.all{
     background-color: black;
     justify-content: center;
     align-items: center;
@@ -30,23 +30,23 @@ input{
     color: white;
     
 }
-.linecontainer{
+.con2{
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.line{
+.cont3{
     flex: 1;
     height: 1px;
     background-color: white;
     color: white;
 }
-.text{
+.cont2{
     padding: 0 10px;
     font-size: 18px;
     color: rgb(220, 205, 205);
 }
-.container{
+.con1{
     text-align: center;
     margin: 15px;
 }
@@ -71,7 +71,7 @@ button{
     
 }
 
-.container2{
+.con3{
     width:700px;
     height:10%;
     display: flex;
